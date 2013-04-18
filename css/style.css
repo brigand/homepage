@@ -1,0 +1,58 @@
+#searchBox, .searchEngine {
+    font-family: monospace;
+}
+
+#searchBox, #buttonBox {
+    width: 80%;
+    margin: 1em auto;
+    min-width: 400px;
+    max-width: 96%;
+    font-size: 24px;
+}
+
+#searchBox input {
+    box-shadow: 0 0 2px #cc29cc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+#searchBox input:hover,
+#searchBox input:focus {
+    box-shadow: 0 0 10px #cc29cc;
+}
+
+.buttonbox a, .buttonbox a:visited {
+    text-decoration: none;
+    color: #cc29cc;
+    font-weight: bold;
+    display: inline-block;
+    margin: 16px;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    box-shadow: 0 0 10px #cc29cc;
+    padding: 2px;
+}
+
+.buttonbox a:focus, .buttonbox a:active {
+    box-shadow: 0 0 15px #f02ef0;
+    color: #f02ef0;
+}
+
+#htmledit > textarea {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 48%;
+    height: 98%;
+}
+
+#htmledit > div {
+    position: absolute;
+    left: 51%;
+    top: 1%;
+    width: 48%;
+    height: 98%;
+}
+
